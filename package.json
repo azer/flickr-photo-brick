@@ -1,0 +1,22 @@
+{
+  "name": "flickr-photo-brick",
+  "version": "0.0.0",
+  "description": "Brick for viewing specified photo from Flickr",
+  "main": "index.js",
+  "keywords": [
+    "flickr",
+    "brick",
+    "browser"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/flickr-photo-brick.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "brick": "0.0.9",
+    "format-date": "0.0.0",
+    "pt-serif": "0.0.2"
+  }
+}

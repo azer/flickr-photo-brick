@@ -1,0 +1,32 @@
+.brick-flickr-photo-brick {
+  display: none;
+  height: 100%;
+}
+
+.brick-flickr-photo-brick .photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center;
+  background-size: cover;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.brick-flickr-photo-brick .photo .button {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 23px;
+  top: 170px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding-top: 7px;
+  font: 12px 'pt serif';
+  text-shadow: 1px 1px #000;
+}
+
+.brick-flickr-photo-brick:hover .button {
+  display: block;
+}
